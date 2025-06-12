@@ -1,0 +1,30 @@
+
+section a {
+    margin: 30px;
+}
+/* espacement entre les vignettes */
+
+
+
+#shiftS1{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}    
+/* centrage des vignettes */
+
+
+#shiftS2{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}   
+
+
+
+footer {
+    margin-top: 200px;
+    padding: 0;
+}
