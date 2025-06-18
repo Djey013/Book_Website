@@ -1,43 +1,12 @@
-.vignettes{
-    display: flex;              /* Aligne par défaut les élément horizontalement. Permet l'utilisation d'autres outils tranformant le conteneur en bloc flexible*/
-    justify-content: center;    /*centre les éléments*/
-    flex-wrap: wrap;            /* Permet de répartir les éléments sur plusieurs lignes si nécessaire. */
-    gap: 300px;                 /* défini un espace entre les éléments */
- /*    margin: 20px auto;
-    max-width: 1000px; */
+ 
+ .vignettes{
+    display: flex;              /*Aligne par défaut les élément horizontalement. Permet l'utilisation d'autres outils tranformant le conteneur en bloc flexible*/
+    justify-content: center;    /*Centre les éléments*/
+    flex-wrap: wrap;            /*Permet de répartir les éléments sur plusieurs lignes si nécessaire.*/
+    gap: 300px;                 /*défini un espace entre les éléments*/
+    margin: 20px auto;
+    max-width: 1000px;
+}
+
     
-}
 
-
-/* 
-section a {
-    margin: 30px;
-}
-espacement entre les vignettes */
-
-
-/*
-#shiftS1{
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
-
-}    
-
-
-
-#shiftS2{
-    text-align: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
-
-}
-Ancien centrage des vignettes */
-
-
-
-footer {
-    margin-top: 200px;
-    padding: 0;
-    
-}
