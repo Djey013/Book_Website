@@ -1,19 +1,22 @@
- 
-/* ssss */
 
 
 .container{
     display: flex;
-    justify-content: space-between; /* fonctionne pour les section sans paramétrage "width" */
     padding: 20px;
 }
 
 
-.left-column {
+.left-box {
     width: 10%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    justify-content: center;
+    border: 5px solid sienna;
+    border-radius: 10px;  
+    
 }
 
-.right-column {
+.right-box {
     width: 90%;
     display: flex;
     gap: 60px;
@@ -21,15 +24,3 @@
     margin-left: 50px;
 }
 
-
-.font-style{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: x-large;
-    justify-content: center;
-}
-
-.border{
-    border: 5px solid sienna;     /* Cette ligne combine border-width, border-style et border-color en une seule propriété raccourcie (border). */
-    border-radius: 10px;                /* La propriété border-radius définit le rayon de courbure des coins de l’élément : */
-
-}
