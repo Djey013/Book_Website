@@ -73,7 +73,7 @@
     font-size: 1.5em;
 }
 
-.left-box {
+.left-box {/* box (Intitulé à gauche) */
     width: 10%;
     display: flex;
     font-family: Impact, sans-serif;
@@ -86,7 +86,7 @@
     
 }
 
-.right-box {
+.right-box {/* carroussel vignettes WEBAPP */
     width: 90%;
     display: flex;
     gap: 60px;
@@ -97,9 +97,12 @@
 .caseBlur {
     border-radius: 10%;
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
-    
- /*    -webkit-mask-image: radial-gradient(circle, rgba(0,0,0,1) 60%, rgba(0,0,0,0) 100%);
-    mask-image: radial-gradient(circle, rgba(0,0,0,1) 60%, rgba(0,0,0,0) 100%); */ 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.caseBlur:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.4);
 }
 
 
