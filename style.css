@@ -8,7 +8,17 @@
     display: flex;
     flex-direction: row;
     gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
     margin-bottom: 75px;
+}
+
+.photoSummary{
+    display: flex;
+}
+
+.imageProfile{
+    padding: 20px;
 }
 
 .info{
@@ -26,17 +36,13 @@
     flex-direction: column;
 }
 
-.imageStyle{
-    padding: 20px;
-}
 
 .contact{
-    padding: 20px;
-    margin: 10px 200px;
-    justify-content: end;
+    /* padding: 50px 100px; */
+    padding: 2% 5%;
 }
 
-.container{
+.mainContainer{
     padding: 20px;
     margin: 20px;
     
